@@ -6,7 +6,8 @@ Some nix expressions for working with Agda and agda libraries
 
 ### Nix-shell
 
-If you run emacs from inside a nix-shell with agdaWithPackages, then emacs
+If you run emacs from inside a nix-shell with agdaWithPackages (see
+[test/shell.nix](test/shell.nix)]), then emacs
 should find your agda and the libraries it needs.
 
 You should make loading agda-mode conditional if you want to use it from a
